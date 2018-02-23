@@ -8,4 +8,4 @@ VOLUME [ "/etc/dhcpd" ]
 
 RUN ["touch", "/etc/dhcpd/dhcpd.leases"]
 
-CMD [ "/usr/sbin/dhcpd", "-4", "-f", "-d", "--no-pid", "-cf", "/etc/dhcp/dhcpd.conf", "-lf", "/etc/dhcpd/dhcpd.leases"]
+CMD [ "/usr/sbin/dhcpd", "-4", "-f", "-d", "--no-pid", "-cf", "/etc/dhcpd/dhcpd.conf", "-lf", "/etc/dhcpd/dhcpd.leases"]
